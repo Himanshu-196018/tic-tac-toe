@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from "./App.jsx";
+import App from "./components/App";
+import "./styles/main.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <h1>Hello React with vite</h1>
+    <App />
   </React.StrictMode>
 );
